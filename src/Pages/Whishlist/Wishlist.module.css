@@ -1,0 +1,56 @@
+.wishlistItemCount{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 0.5px solid var(--TextColorGrey);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wishlistItemCount h6{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--TextColorGrey);
+    font-weight: 500;
+}
+.wishlistItemCount button{
+    padding: 10px;
+    outline: none;
+    border: none;
+   background-color: transparent;
+    color: var(--TextColor);
+    cursor: pointer;
+    border: 4px;
+}
+.wishlistItemCount button:hover{
+     background-color: var(--border-color);
+}
+.WishlistCont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.error{
+    margin: 80px 0px;
+    width: 50%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .WishlistCont{
+        justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .wishlistItemCount {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+  }

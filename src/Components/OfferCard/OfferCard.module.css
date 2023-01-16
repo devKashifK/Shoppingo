@@ -1,0 +1,27 @@
+.offerCard {
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 55%),
+    0 2px 6px 0 rgb(206 206 238 / 44%);
+  background-color: var(--White);
+  flex: 1 1 auto;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 30px 0px;
+  /* border-bottom: 4px solid #0d6efd; */
+}
+.icon {
+  font-size: 50px;
+  line-height: 48px;
+}
+.offerCard h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--TextColor);
+  font-weight: 700;
+}
+.offerCard p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--TextColorGrey);
+  font-weight: 400;
+  margin-top: 12px;
+}

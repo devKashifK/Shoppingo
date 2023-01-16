@@ -1,0 +1,15 @@
+.pageInfo{
+    border-bottom: 1px solid var(--border-color);
+    padding: 0px 30px 0px 30px;
+    width: 100%;
+    text-align: left;
+    margin: 15px 0px 25px 0px;
+}
+.pageInfo h4{
+    color: var(--TextColorDarkGrey);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}

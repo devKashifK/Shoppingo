@@ -1,0 +1,11 @@
+.brands{
+    margin-top: 20px;
+}
+.brandLogo{
+    padding:  0px 10px;
+
+}
+.brandLogo img{
+    width: 100% ;
+    height: 100%;
+}

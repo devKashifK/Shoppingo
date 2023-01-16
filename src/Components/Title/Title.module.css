@@ -1,0 +1,18 @@
+.dynamicTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 12px;
+}
+.line{
+height: 1px;
+flex: 1;
+background-color:  var(--border-color);
+}
+
+.MainTitle {
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--TextColor);
+    font-weight: 700;
+  }

@@ -1,0 +1,85 @@
+.container {
+  width: 30%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+.container h4 {
+  color: var(--TextColor);
+  text-align: left;
+  width: 80%;
+}
+
+.container input {
+  outline: none;
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  width: 80%;
+  border-radius: 12px;
+}
+
+.buttonBox {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.signUpContainer {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+.signUpContainer h4 {
+  color: var(--TextColor);
+  text-align: left;
+  width: 80%;
+}
+.signUpContainer input {
+  outline: none;
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  width: 80%;
+  border-radius: 12px;
+}
+.colGroup {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+}
+.colGroup input {
+  width: 50%;
+  outline: none;
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+
+@media only screen and (max-width: 950px) {
+  .container{
+    width: 80%;
+  }
+  .signUpContainer{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .colGroup{
+  flex-direction: column;
+  }
+}

@@ -1,0 +1,7 @@
+.shopLayout{
+    width: 88%;
+    display: flex;
+    gap:15px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}

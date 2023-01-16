@@ -1,0 +1,17 @@
+.blogConatiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    gap :20px;
+}
+.blogConatiner > *{
+    width: calc(100% / 4 - 20);
+}
+
+@media only screen and (max-width: 950px) {
+    .blogConatiner{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,127 @@
+.footer {
+  display: flex;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  padding: 50px 0px;
+}
+
+.footerCont {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.footerBox {
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.logo {
+  width: 130px;
+}
+.footerTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--TextColor);
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  list-style: none;
+  text-align: left;
+  color: var(--TextColor);
+}
+.link {
+  color: var(--normalTextColor) !important;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.link strong{
+    font-size: 23px;
+    margin-right: 5px;
+}
+.footerText {
+  color: var(--normalTextColor);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.footerIconsCont {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--TextColor);
+  margin-top: 10px;
+}
+.footerIcons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--TextColor);
+  border: 1px solid var(--TextColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerIcons:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--TextColor);
+  color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBox input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  outline: none;
+  padding: 15px;
+}
+
+.footerBox button {
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--TextColor);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: var(--White);
+}
+.copyright{
+    background-color: var(--TextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    color: var(--White);
+}
+.copyright strong{
+    margin: 0px 05px;
+    cursor: pointer;
+}
+
+.copyright:hover strong{
+    color: red;
+}
+
+@media only screen and (max-width: 950px) {
+  .footerCont {
+    flex-direction: column;
+    gap: 35px;
+  }
+}

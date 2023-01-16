@@ -1,0 +1,30 @@
+.filterCont {
+  width: 25%;
+  border: 1px solid var(--border-color);
+  padding: 10px 0px;
+  height: max-content;
+}
+.filter {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--TextColor);
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.filter p {
+  padding: 0px 05px;
+}
+
+@media only screen and (max-width: 800px) {
+  .filterCont {
+    position: absolute;
+    position: absolute;
+    z-index: 100;
+    width: 35%;
+    background-color: black;
+    display: none;
+  }
+}

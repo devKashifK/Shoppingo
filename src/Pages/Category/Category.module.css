@@ -1,0 +1,30 @@
+.productConatiner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productConatiner > * {
+  width: calc(100% / 4);
+  padding: 0px 15px;
+  flex-shrink: 0;
+}
+
+.shopLayout {
+  width: 88%;
+  display: flex;
+  gap: 15px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.loadMoreBtn {
+ margin-bottom: 50px;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: var(--TextColor);
+  color: white;
+  margin: 0px auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Raleway";
+}

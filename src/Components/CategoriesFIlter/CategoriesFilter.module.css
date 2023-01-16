@@ -1,0 +1,43 @@
+
+.FilterBox{
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+.Name{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--TextColorDarkGrey);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 05px 05px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.Name:hover{
+    color: red;
+}
+.filterTitle{
+    text-align: left;
+    padding: 09px 05px;
+    background-color: var(--normalBackground);
+    color: var(--normaTextColor);
+    font-size: 18px;
+    font-weight: 19px;
+    font-weight: 700;
+}
+.Name strong{
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+
+}

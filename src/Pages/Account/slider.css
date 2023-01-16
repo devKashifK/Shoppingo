@@ -1,0 +1,34 @@
+
+  .sliderApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #222;
+    overflow: hidden;
+  }
+  
+.sliderUl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    transform: translateX(0);
+    background-color: green;
+  }
+  
+  .sliderLi {
+    width: 33.333%;
+    flex-shrink: 0;
+    background-color: #795548;
+    border: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

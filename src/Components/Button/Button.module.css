@@ -1,0 +1,46 @@
+.lightBtn {
+  padding: 10px;
+  background-color: var(--White);
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--darkBorder);
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 07px;
+}
+.lightBtn:hover{
+background-color: var(--darkBorder);
+color: var(--White);
+}
+.darkBtn{
+  padding: 10px;
+  background-color: var(--darkBorder);
+  color: var(--White);
+  border: none;
+  outline: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--White);
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 07px;
+}
+.darkBtn:hover{
+  background-color: var(--white);
+  color: var(--TextColor);
+  border: 1px solid var(--darkBorder);
+}
